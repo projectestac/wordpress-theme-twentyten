@@ -1,0 +1,449 @@
+# Translation of Twenty Ten in Catalan
+# This file is distributed under the same license as the Twenty Ten package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-02-10 14:15+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"Project-Id-Version: Twenty Ten\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Sara Arjona Téllez <sarjona@xtec.cat>\n"
+"Language-Team: Departament Ensenyament - UPCnet\n"
+"Language: ca\n"
+
+# MODIFICAT XTEC
+#. Description of the plugin/theme
+msgid ""
+"The 2010 theme for WordPress is stylish, customizable, simple, and readable "
+"-- make it yours with a custom menu, header image, and background. Twenty "
+"Ten supports six widgetized areas (two in the sidebar, four in the footer) "
+"and featured images (thumbnails for gallery posts and custom header images "
+"for posts and pages). It includes stylesheets for print and the admin Visual "
+"Editor, special styles for posts in the \"Asides\" and \"Gallery\" "
+"categories, and has an optional one-column page template that removes the "
+"sidebar."
+msgstr ""
+"El tema 2010 per al WordPress és elegant, personalitzable, simple i fàcil de "
+"llegir -- feu-lo vostre amb un menú, una imatge de capçalera i un fons "
+"personalitzat. Twenty Ten suporta sis àrees per a ginys (dues en la barra "
+"lateral, quatre al peu de pàgina) i imatges destacades (miniatures per a "
+"entrades de galeries i capçalera personalitzada per a entrades i pàgines). "
+"Inclou fulles d'estil per a impressió i l'editor visual de l'administrador, "
+"estils especials per als articles de les categories \"Apart\" i \"Galeria\", "
+"i té una plantilla de pàgina a una columna que suprimeix la barra lateral."
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Ten"
+msgstr "Twenty Ten"
+
+#. Template Name of the plugin/theme
+msgid "One column, no sidebar"
+msgstr "Una columna, sense barra lateral"
+
+#: tag.php:16
+msgid "Tag Archives: %s"
+msgstr "Arxiu d'etiquetes: %s"
+
+#: sidebar.php:35
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar.php:28
+msgid "Archives"
+msgstr "Arxius"
+
+#: search.php:29
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Ho sentim, res no coincideix amb els criteris de cerca. Intenteu-ho de nou "
+"amb altres paraules claus diferents."
+
+#: search.php:27
+msgid "Nothing Found"
+msgstr "No s'ha trobat res"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Resultats de la cerca per a: %s"
+
+#: loop.php:161
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Etiquetat com a</span> %2$s"
+
+#: loop.php:152
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Publicat dins de</span> %2$s"
+
+#: loop.php:107
+msgctxt "asides category slug"
+msgid "asides"
+msgstr "aparteu"
+
+#: loop.php:100 loop.php:123 loop.php:165
+msgid "% Comments"
+msgstr "% comentaris"
+
+#: loop.php:100 loop.php:123 loop.php:165
+msgid "1 Comment"
+msgstr "1 comentari"
+
+#: loop.php:100 loop.php:123 loop.php:165
+msgid "Leave a comment"
+msgstr "Deixa un comentari"
+
+# MODIFICAT XTEC
+#: loop.php:97
+msgid "View posts in the Gallery category"
+msgstr "Mostra els articles en la categoria Galeria"
+
+#: loop.php:94 loop.php:97
+msgid "More Galleries"
+msgstr "Més galeries "
+
+#: loop.php:94
+msgid "View Galleries"
+msgstr "Visualitza les galeries"
+
+#: loop.php:84
+msgid "Permalink to %s"
+msgstr "Enllaç permanent a %s"
+
+#: loop.php:83
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Aquesta galeria conté <a %1$s>%2$s fotografia</a>."
+msgstr[1] "Aquesta galeria conté <a %1$s>%2$s fotografies</a>."
+
+#: loop.php:62 loop.php:96
+msgctxt "gallery category slug"
+msgid "gallery"
+msgstr "galeria"
+
+# MODIFICAT XTEC
+#: loop.php:35
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"No hi ha cap resultat per l'arxiu sol·licitat. Potser cercar us ajudarà a "
+"trobar un article relacionat."
+
+# MODIFICAT XTEC
+#: loop.php:26 loop.php:180
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles més recents <span class=\"meta-nav\">&rarr;</span>"
+
+# MODIFICAT XTEC
+#: loop.php:25 loop.php:179
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles més antics"
+
+# MODIFICAT XTEC
+#: loop-single.php:50
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Mostra tots els articles de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop-single.php:22 loop-single.php:65
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: loop-single.php:21 loop-single.php:64
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: loop-attachment.php:120 loop-page.php:29 loop-single.php:34 loop.php:145
+msgid "Pages:"
+msgstr "Pàgines:"
+
+#: loop-attachment.php:63 loop-attachment.php:126 loop-page.php:30
+#: loop-single.php:59 loop.php:101 loop.php:124 loop.php:166
+msgid "Edit"
+msgstr "Edita"
+
+#: loop-attachment.php:56
+msgid "Link to full-size image"
+msgstr "Enllaç a la imatge de mida sencera"
+
+#: loop-attachment.php:53
+msgid "Full size is %s pixels"
+msgstr "La mida sencera són %s píxels"
+
+#: loop-attachment.php:43
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr "<span class=\"%1$s\">Publicat</span> %2$s"
+
+#: loop-attachment.php:32
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr "<span class=\"%1$s\">Per</span> %2$s"
+
+#. translators: %s - title of parent post
+#: loop-attachment.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+#: loop-attachment.php:21
+msgid "Return to %s"
+msgstr "Torna a %s"
+
+#: header.php:105
+msgid "Skip to content"
+msgstr "Vés al contingut"
+
+#: header.php:33
+msgid "Page %s"
+msgstr "Pàgina %s"
+
+#: functions.php:544
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"Afegeix a les adreces d'interès l'<a href=\"%3$s\" title=\"Enllaç permanent "
+"a %4$s\" rel=\"bookmark\">enllaç permanent</a>."
+
+# MODIFICAT XTEC
+#: functions.php:542
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Aquest article ha estat publicat en %1$s. Afegeix a les adreces d'interès "
+"l'<a href=\"%3$s\" title=\"Enllaç permanent a: %4$s\" rel=\"bookmark"
+"\">enllaç permanent</a>."
+
+# MODIFICAT XTEC
+#: functions.php:540
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Aquest article s'ha publicat dins de %1$s i etiquetat amb %2$s. Afegiu a les "
+"adreces d'interès l'<a href=\"%3$s\" title=\"Enllaç permanent a: %4$s\" rel="
+"\"bookmark\">enllaç permanent</a>."
+
+# MODIFICAT XTEC
+#: functions.php:523 loop-attachment.php:36
+msgid "View all posts by %s"
+msgstr "Mostra tots els articles de %s"
+
+#: functions.php:514
+msgid ""
+"<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</"
+"span> %3$s"
+msgstr ""
+"<span class=\"%1$s\">Publicat el</span> %2$s <span class=\"meta-sep\">per</"
+"span> %3$s"
+
+#: functions.php:478
+msgid "Fourth Footer Widget Area"
+msgstr "Zona de ginys del quart peu"
+
+#: functions.php:467
+msgid "Third Footer Widget Area"
+msgstr "Zona de ginys del tercer peu"
+
+#: functions.php:456
+msgid "Second Footer Widget Area"
+msgstr "Zona de ginys del segon peu "
+
+#: functions.php:447 functions.php:458 functions.php:469 functions.php:480
+msgid "An optional widget area for your site footer."
+msgstr "Una àrea de ginys opcional per al peu del lloc web."
+
+#: functions.php:436
+msgid ""
+"An optional secondary widget area, displays below the primary widget area in "
+"your sidebar."
+msgstr ""
+"Una àrea de ginys secundària opcional, que es mostra a la part inferior de "
+"l'àrea de ginys principal a la barra lateral."
+
+#: functions.php:445
+msgid "First Footer Widget Area"
+msgstr "Zona de ginys del primer peu "
+
+#: functions.php:434
+msgid "Secondary Widget Area"
+msgstr "Zona de ginys secundària "
+
+#: functions.php:425
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Afegeix aquí ginys perquè apareguin a la barra lateral."
+
+#: functions.php:423
+msgid "Primary Widget Area"
+msgstr "Zona de ginys primària "
+
+#: functions.php:403
+msgid "Pingback:"
+msgstr "Retroenllaç:"
+
+#: functions.php:386 functions.php:403
+msgid "(Edit)"
+msgstr "(Edita)"
+
+#. translators: 1: date, 2: time
+#: functions.php:386
+msgid "%1$s at %2$s"
+msgstr "%1$s a les %2$s"
+
+#: functions.php:379
+msgid "Your comment is awaiting moderation."
+msgstr "El comentari està esperant moderació."
+
+#: functions.php:376
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">diu:</span>"
+
+#: functions.php:280 loop-attachment.php:119 loop.php:116 loop.php:144
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua llegint <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: header image description
+#: functions.php:207
+msgid "Sunset"
+msgstr "Posta de sol"
+
+#. translators: header image description
+#: functions.php:201
+msgid "Path"
+msgstr "Camí"
+
+#. translators: header image description
+#: functions.php:195
+msgid "Inkwell"
+msgstr "Tinter"
+
+#. translators: header image description
+#: functions.php:189
+msgid "Forest Floor"
+msgstr "Sòl del bosc"
+
+#. translators: header image description
+#: functions.php:183
+msgid "Fern"
+msgstr "Falguera"
+
+#. translators: header image description
+#: functions.php:177
+msgid "Concave"
+msgstr "Concau"
+
+#. translators: header image description
+#: functions.php:171
+msgid "Cherry Blossoms"
+msgstr "Flors de cirerer"
+
+#. translators: header image description
+#: functions.php:165
+msgid "Berries"
+msgstr "Baies"
+
+#: functions.php:95
+msgid "Primary Navigation"
+msgstr "Navegació primària"
+
+#: footer.php:40
+msgid "Proudly powered by %s."
+msgstr "Gràcies al %s."
+
+#: footer.php:40
+msgid "Semantic Personal Publishing Platform"
+msgstr "Plataforma de publicació personal i semàntica."
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "Els comentaris estan tancats."
+
+#: comments.php:43 comments.php:63
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Comentaris recents <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:42 comments.php:62
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span>Comentaris anteriors"
+
+#: comments.php:36
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "Una resposta a %2$s"
+msgstr[1] "%1$s respostes a %2$s"
+
+# MODIFICAT XTEC
+#: comments.php:18
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Aquest article està protegit amb contrasenya. Introduïu la contrasenya per "
+"veure'n els comentaris."
+
+#: category.php:16
+msgid "Category Archives: %s"
+msgstr "Arxiu de la categoria: %s"
+
+#: author.php:47 loop-single.php:46
+msgid "About %s"
+msgstr "Quant a %s"
+
+#: author.php:28
+msgid "Author Archives: %s"
+msgstr "Arxiu de l'autor: %s"
+
+#: archive.php:40
+msgid "Blog Archives"
+msgstr "Arxiu del Bloc"
+
+#: archive.php:38
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:38
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Arxiu anual: <span>%s</span>"
+
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F \\d\\e Y"
+
+#: archive.php:36
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Arxiu mensual: <span>%s</span>"
+
+#: archive.php:34
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Arxiu diari: <span>%s</span>"
+
+#: 404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Ho sentim, però la pàgina que heu sol·licitat no s'ha trobat. Tal vegada "
+"cercar us ajudarà."
+
+#: 404.php:16 loop.php:33
+msgid "Not Found"
+msgstr "No s'ha trobat"
+
+#. #-#-#-#-#  twentyten.pot (Twenty Ten 2.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:40
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "L'equip del WordPress"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyten/"
+msgstr "https://wordpress.org/themes/twentyten/"
