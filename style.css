@@ -1387,3 +1387,11 @@ code {
 		border: none;
 	}
 }
+
+/* XTEC ************ AFEGIT - Customize styles simple calendar */
+/* 2017.03.08 @xaviernietosanchez */
+.widget-area .simcal-week-day{
+	white-space: nowrap !important;
+	font-size: 0.8em;
+}
+/* ************ FI */
